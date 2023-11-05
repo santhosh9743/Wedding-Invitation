@@ -1,57 +1,82 @@
 /**
- * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
+ * @author Rahul Jangir <'aarjayjangir@gmail.com'>
  */
 (function ($) {
     "use strict";
-      $('.sakura-falling').sakura();
+    $('.sakura-falling').sakura();
 })(jQuery);
 
-/**
- *
- * Despite so many new Bollywood and English song options, I prefered to use two-decade-old song, Din Shagna Da!
- *
- * Ever attended a North Indian Wedding? As soon as the DJ plays Din Shagna Da song, it means that the much-awaited moment is here
- * and the bride is all set to put her first foot forward to the wedding venue under a breathtaking phoolon ki chaadar.
- * Let's keep the sky-high status of this song untouched!
- *
- * When the website is backed up with a soul-stirring track, the feeling becomes absolutely surreal. 
- * Choose a heart-touching track! 🎵 ❤️
- *
- * Listen here: https://youtu.be/X0MDALpV29s
- *
- */
-$(document).on('click', function(){
-    document.getElementById("my_audio").play();
+
+var myaudio = document.getElementById("my_audio");
+$(document).on('click', function () {
+    myaudio.play();
     console.log('Shaadi me zaroor aana');
 });
 
+
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 29, 2023 00:00:00").getTime();
+var countDownDate = new Date("dec 04, 2023 19:00:00").getTime();
 
 // Update the count down every 1 second
-var x = setInterval(function() {
+var x = setInterval(function () {
 
     // Get todays date and time
     var now = new Date().getTime();
-    
+
     // Find the distance between now and the count down date
     var distance = countDownDate - now;
-    
+
     // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
+
     // Output the result in an element with id="demo"
-    document.getElementById("time").innerHTML = "<div class='container'><div class='days block'>"+ days + "<br>Days</div>" + "<div class='hours block'>" + hours + "<br>Hours</div>" + "<div class='minutes block'>" + minutes + "<br>Minutes</div>" + "<div class='seconds block'>" + seconds + "<br>Seconds</div></div>";
-    
+    document.getElementById("time").innerHTML = "<div class='container'><div class='days block'>" + days + "<br>Days</div>" + "<div class='hours block'>" + hours + "<br>Hours</div>" + "<div class='minutes block'>" + minutes + "<br>Minutes</div>" + "<div class='seconds block'>" + seconds + "<br>Seconds</div></div>";
+
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
     }
 }, 1000);
+
+
+
+
+
+
+
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '1.5rem',
+    duration: 2000,
+    delay: 200,
+    // reset: true
+});
+
+
+// sr.reveal(`.rahul`,{ delay: 300, origin: 'top' })
+sr.reveal(`.rahul`, { origin: 'left', delay: 700 })
+sr.reveal(`.pranjal`, { origin: 'right', delay: 700 })
+sr.reveal(`.gif,.home_txt`, { delay: 1300, origin: 'top' })
+sr.reveal(`.top-right-decoration,.top-left-decoration`, { origin: 'left', delay: 2200 })
+sr.reveal(`.responsive-table__row`, { interval: 200 })
+sr.reveal(`.table_container`, { delay: 100, origin: 'top' })
+sr.reveal(`.happiness,.hindi_text`, { delay: 400, origin: 'bottom' })
+sr.reveal(`.social__links`, { delay: 1000, origin: 'bottom', interval: 200 })
+sr.reveal(`.newsletter__description,.home__bottom`, { origin: 'left', delay: 400 })
+sr.reveal(`.newsletter__form,.CTA`, { origin: 'right', delay: 400 })
+
+
+
+
+
+
+
+
 
 // being a bit cool :p  
 var styles = [
@@ -85,9 +110,9 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles);
+console.log('\n\n%c SAVE THE DATE: Dec 07, 2023!', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Vinit Shahdeo', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: Rahul Jangir', styles1, styles2);
 
 console.log(
     `%cShaadi me zaroor aana!\n\n`,

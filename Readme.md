@@ -1,5 +1,5 @@
-<p align="center"><a href="https://rahul-pranjal-wedding-invite.web.app/"><img src="./favicon.png" width="150px" height="150px"/></a></p>
-<h1 align="center"><a href="https://rahul-pranjal-wedding-invite.web.app/">Wedding Invitation</a><img src="./assets/wedding.gif" width="22px" height="22px"  <br> <br> SAVE THE DATE: DEC 04, 2023 <br> <a href="https://rahul-pranjal-wedding-invite.web.app/">Rahul Pranjal widding invitation</a></h1>
+<p align="center"><a href="https://rahul-pranjal-wedding-invite.web.app/"><img src="https://res.cloudinary.com/dytbosrbw/image/upload/v1699181308/favicon_vv8fch.png" width="150px" height="150px"/></a></p>
+<h1 align="center"><a href="https://rahul-pranjal-wedding-invite.web.app/">Wedding Invitation</a><img src="https://res.cloudinary.com/dytbosrbw/image/upload/v1699090976/wedding_cdg95p.gif" width="22px" height="22px"  <br> <br> SAVE THE DATE: DEC 04, 2023 <br> <a href="https://rahul-pranjal-wedding-invite.web.app/">Rahul Pranjal widding invitation</a></h1>
 
 Welcome to our wedding invitation website repository! This project is built with HTML, CSS, and JavaScript to create a beautiful and interactive platform for inviting your guests to celebrate this special day with you. The website incorporates various features, including an RSVP section to help you manage your guest list. We've also utilized the ScrollReveal library to add elegant scrolling animations and bring an extra touch of magic to the site. Feel free to explore the code, customize it to your liking, and use it as a template for your own wedding invitation website. Wishing you a wonderful wedding journey!
 
@@ -10,9 +10,9 @@ Welcome to our wedding invitation website repository! This project is built with
   <a href="https://rahul-pranjal-wedding-invite.web.app/"><img src="https://res.cloudinary.com/dytbosrbw/image/upload/v1699175418/Rahul_Pranjal-Wedding-Celebration_mccrcy.png" /></a>
 </details>
 
-With the divine grace of the almighty,
+With the divine grace of the Almighty,
 I cordially invite you and your family to
-my wedding to be held on **04th december at [jangid bhawan](https://maps.app.goo.gl/wPVwUUrKnYUMy24D7) , Akola from 7:00 PM** onwards.
+my wedding to be held on **04th December at [jangid bhawan](https://maps.app.goo.gl/wPVwUUrKnYUMy24D7), Akola from 7:00 PM** onwards.
 
 - [Download](invitation/widding%20invitation%20|%2004%20Dec%20.pdf) the Invitation card
 
@@ -25,7 +25,7 @@ my wedding to be held on **04th december at [jangid bhawan](https://maps.app.goo
 - Elegant design
 - RSVP section for managing your guest list
 - Enchanting animations using the ScrollReveal library
-- A countdown timer in `script.js` to the big day.
+- A countdown timer in `script.js` for the big day.
 - Background music for an immersive experience.
 - Gmail-to-Google Sheets script for tracking RSVP responses.
 - SweetAlert for delightful pop-up notifications.
@@ -42,7 +42,7 @@ git clone https://github.com/aarjaycreation/Wedding-Invitation.git
 2. Customize the CSS color scheme to match your wedding theme.
 
 ```css
-:root {
+: root {
   /*========== Colors ==========*/
   /* favorite color */
   --hue-color: 250;
@@ -62,18 +62,18 @@ git clone https://github.com/aarjaycreation/Wedding-Invitation.git
 
 3. Replace the date in `script.js` with your wedding date to have a timer running for your big day.
 
-```js
+``` js
 // Set the date we're counting down to
 var countDownDate = new Date("dec 04, 2023 19:00:00").getTime();
 ```
 
 4. Change the music by replacing the audio file in the 'assets/mp3' folder.
 
-```html
+```HTML
 <!--=============== music ===============-->
 <div class="music">
   <audio
-    autoplay
+    Autoplay
     controls
     src="./assets/mp3/song.mp3"
     id="my_audio"
@@ -84,7 +84,7 @@ var countDownDate = new Date("dec 04, 2023 19:00:00").getTime();
 
 5. Add the ScrollReveal library for enchanting animations.
 
-```js
+``` js
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: "top",

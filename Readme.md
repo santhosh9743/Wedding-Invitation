@@ -7,14 +7,14 @@ Welcome to our wedding invitation website repository! This project is built with
 
 <details>
   <summary><strong>View Invitation</strong></summary>
-  <a href="https://rahul-pranjal-wedding-invite.web.app/"><img src="https://res.cloudinary.com/dytbosrbw/image/upload/v1699175418/Rahul_Pranjal-Wedding-Celebration_mccrcy.png" /></a>
+  <a href="https://rahul-pranjal-wedding-invite.web.app/"><img src="https://res.cloudinary.com/dytbosrbw/image/upload/v1699241763/Rahul_Pranjal-Wedding-Celebration_ewxofb.png" /></a>
 </details>
 
 With the divine grace of the Almighty,
 I cordially invite you and your family to
 my wedding to be held on **04th December at [jangid bhawan](https://maps.app.goo.gl/wPVwUUrKnYUMy24D7), Akola from 7:00 PM** onwards.
 
-- [Download](invitation/widding%20invitation%20|%2004%20Dec%20.pdf) the Invitation card
+- [Download](invitation/widding-invitation-04-Dec.pdf) the Invitation card
 
 - Find [venue](https://maps.app.goo.gl/wPVwUUrKnYUMy24D7) on Google map
 
